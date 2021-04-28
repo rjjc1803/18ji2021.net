@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveExam", "LoveExam\LoveExam.csproj", "{678DC9AE-3858-4ED7-B7D2-D5AD4491F16B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.表示层", "1.表示层", "{D6DF9754-3676-42DC-B213-1175D620DE79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.业务逻辑层", "2.业务逻辑层", "{3BFCFA65-6AEA-4AF1-8323-0825D23B01F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.数据连接层", "3.数据连接层", "{86F449B1-7DF0-4D10-AA68-E6A8363FF56B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveExam.BLL", "LoveExam.BLL\LoveExam.BLL.csproj", "{C5C0C3A2-459F-4C08-B992-4B88734B6F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveExam.DAL", "LoveExam.DAL\LoveExam.DAL.csproj", "{EFDC72BE-36C2-47F8-8047-26A393D36492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveExam.Model", "LoveExam.Model\LoveExam.Model.csproj", "{43AE462F-1FB0-4CC3-9937-1E9DCA20D235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{678DC9AE-3858-4ED7-B7D2-D5AD4491F16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678DC9AE-3858-4ED7-B7D2-D5AD4491F16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678DC9AE-3858-4ED7-B7D2-D5AD4491F16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678DC9AE-3858-4ED7-B7D2-D5AD4491F16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C0C3A2-459F-4C08-B992-4B88734B6F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C0C3A2-459F-4C08-B992-4B88734B6F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C0C3A2-459F-4C08-B992-4B88734B6F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C0C3A2-459F-4C08-B992-4B88734B6F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFDC72BE-36C2-47F8-8047-26A393D36492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDC72BE-36C2-47F8-8047-26A393D36492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDC72BE-36C2-47F8-8047-26A393D36492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDC72BE-36C2-47F8-8047-26A393D36492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43AE462F-1FB0-4CC3-9937-1E9DCA20D235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AE462F-1FB0-4CC3-9937-1E9DCA20D235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AE462F-1FB0-4CC3-9937-1E9DCA20D235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AE462F-1FB0-4CC3-9937-1E9DCA20D235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{678DC9AE-3858-4ED7-B7D2-D5AD4491F16B} = {D6DF9754-3676-42DC-B213-1175D620DE79}
+		{C5C0C3A2-459F-4C08-B992-4B88734B6F66} = {3BFCFA65-6AEA-4AF1-8323-0825D23B01F4}
+		{EFDC72BE-36C2-47F8-8047-26A393D36492} = {86F449B1-7DF0-4D10-AA68-E6A8363FF56B}
+		{43AE462F-1FB0-4CC3-9937-1E9DCA20D235} = {86F449B1-7DF0-4D10-AA68-E6A8363FF56B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
